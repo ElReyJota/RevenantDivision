@@ -1,6 +1,7 @@
 package net.elreyjota.revenantmod;
 
 import com.mojang.logging.LogUtils;
+import net.elreyjota.revenantmod.block.ModBlocks;
 import net.elreyjota.revenantmod.item.ModCreativeModTabs;
 import net.elreyjota.revenantmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -34,6 +35,9 @@ public class RevenantMod {
 
         // Registers the items
         ModItems.register(modEventBus);
+
+        // Registers the blocks
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
