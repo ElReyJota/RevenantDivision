@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "pyrium_raw",
+  "ingredient": {
+    "item": "revenantmod:pyrium_ore"
+  },
+  "result": {
+    "item": "revenantmod:pyrium_raw",
+    "count": 1
+  }
+}

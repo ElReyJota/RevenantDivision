@@ -16,10 +16,17 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MALACHITE = ITEMS.register("malachite",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> WOOD_HANDLE = ITEMS.register("wood_handle",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ORICHALCUM = ITEMS.register("orichalcum",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLASMA_CRUDE = ITEMS.register("plasma_crude",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRIDIAN_PEARL = ITEMS.register("iridian_pearl",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PYRIUM_RAW = ITEMS.register("pyrium_raw",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WOOD_HANDLE = ITEMS.register("wood_handle",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus){

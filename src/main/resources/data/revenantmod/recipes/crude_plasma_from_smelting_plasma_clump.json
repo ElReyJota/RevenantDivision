@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "plasma_crude",
+  "ingredient": {
+    "item": "revenantmod:plasma_clump"
+  },
+  "result": {
+    "item": "revenantmod:plasma_crude",
+    "count": 1
+  }
+}

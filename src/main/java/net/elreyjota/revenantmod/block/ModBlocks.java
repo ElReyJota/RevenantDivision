@@ -29,6 +29,18 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(40f, 1200f).requiresCorrectToolForDrops(),
                     UniformInt.of(30, 40)));
+    public static final RegistryObject<Block> PLASMA_CLUMP = registerBlock("plasma_clump",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.SOUL_SAND)
+                    .strength(20f, 120f).requiresCorrectToolForDrops(),
+                    UniformInt.of(10, 15)));
+    public static final RegistryObject<Block> IRIDIAN_DEBRIS = registerBlock("iridian_debris",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)
+                    .strength(40f, 1200f).requiresCorrectToolForDrops(),
+                    UniformInt.of(40, 50)));
+    public static final RegistryObject<Block> PYRIUM_ORE = registerBlock("pyrium_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)
+                    .strength(20f, 300f).requiresCorrectToolForDrops(),
+                    UniformInt.of(20, 25)));
 
     // Does the whole process of registering the block
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
