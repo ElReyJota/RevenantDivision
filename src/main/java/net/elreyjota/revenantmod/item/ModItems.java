@@ -11,9 +11,12 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, RevenantMod.MOD_ID);
 
+    // List of Items
+    public static final RegistryObject<Item> LOGO = ITEMS.register("logo",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MALACHITE = ITEMS.register("malachite",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> LOGO = ITEMS.register("logo",
+    public static final RegistryObject<Item> WOOD_HANDLE = ITEMS.register("wood_handle",
             () -> new Item(new Item.Properties()));
 
 
