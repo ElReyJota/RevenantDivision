@@ -18,6 +18,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WOOD_HANDLE = ITEMS.register("wood_handle",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ORICHALCUM = ITEMS.register("orichalcum",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus){

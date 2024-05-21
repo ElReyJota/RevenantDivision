@@ -1,8 +1,11 @@
 {
   "item.revenantmod.malachite": "Malachite",
+  "item.revenantmod.orichalcum": "Orichalcum",
   "item.revenantmod.wood_handle": "Wood Handle",
 
+
   "block.revenantmod.malachite_ore": "Malachite Ore",
+  "block.revenantmod.orichalcum_ore": "Orichalcum Ore",
 
   "creativetab.revenant_tab": "Revenant Division"
 }
