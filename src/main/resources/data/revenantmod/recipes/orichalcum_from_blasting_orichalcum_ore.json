@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 200,
+  "experience": 1.3,
+  "group": "orichalcum",
+  "ingredient": {
+    "item": "revenantmod:orichalcum_ore"
+  },
+  "result": {
+    "item": "revenantmod:orichalcum",
+    "count": 2
+  }
+}
