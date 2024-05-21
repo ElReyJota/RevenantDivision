@@ -2,10 +2,12 @@ package net.elreyjota.revenantmod.block;
 
 import net.elreyjota.revenantmod.RevenantMod;
 import net.elreyjota.revenantmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -19,7 +21,9 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, RevenantMod.MOD_ID);
 
     public static final RegistryObject<Block> MALACHITE_ORE = registerBlock("malachite_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(30f, 1200f).requiresCorrectToolForDrops(),
+                    UniformInt.of(10, 15)));
 
     // Does the whole process of registering the block
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
