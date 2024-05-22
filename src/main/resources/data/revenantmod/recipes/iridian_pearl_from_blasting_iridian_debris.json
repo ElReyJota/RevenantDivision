@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "iridian_pearl",
+  "ingredient": {
+    "item": "revenantmod:iridian_debris"
+  },
+  "result": {
+    "item": "revenantmod:iridian_pearl",
+    "count": 1
+  }
+}

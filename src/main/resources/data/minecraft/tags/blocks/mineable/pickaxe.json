@@ -1,6 +1,8 @@
 {
   "values": [
     "revenantmod:malachite_ore",
-    "revenantmod:orichalcum_ore"
+    "revenantmod:orichalcum_ore",
+    "revenantmod:iridian_debris",
+    "revenantmod:pyrium_ore"
   ]
 }

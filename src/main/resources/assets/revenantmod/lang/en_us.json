@@ -1,11 +1,17 @@
 {
   "item.revenantmod.malachite": "Malachite",
   "item.revenantmod.orichalcum": "Orichalcum",
+  "item.revenantmod.plasma_crude": "Crude Plasma",
+  "item.revenantmod.iridian_pearl": "Iridian Pearl",
+  "item.revenantmod.pyrium_raw": "Raw Pyrium",
   "item.revenantmod.wood_handle": "Wood Handle",
 
 
   "block.revenantmod.malachite_ore": "Malachite Ore",
   "block.revenantmod.orichalcum_ore": "Orichalcum Ore",
+  "block.revenantmod.plasma_clump": "Plasma Clump",
+  "block.revenantmod.iridian_debris": "Iridian Debris",
+  "block.revenantmod.pyrium_ore": "Pyrium Ore",
 
   "creativetab.revenant_tab": "Revenant Division"
 }
