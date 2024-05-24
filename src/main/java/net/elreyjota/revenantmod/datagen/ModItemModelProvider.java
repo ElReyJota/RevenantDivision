@@ -24,6 +24,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.WOOD_HANDLE);
         simpleItem(ModItems.PLASMA_CRUDE);
         simpleItem(ModItems.PYRIUM_RAW);
+        simpleItem(ModItems.LOGO);
     }
 
     // The Item Model Builder out of an Item registry

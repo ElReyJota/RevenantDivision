@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "revenantmod:item/raw_pyrium"
+    "layer0": "revenantmod:item/pyrium_raw"
   }
 }

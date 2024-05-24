@@ -1,0 +1,4 @@
+// 1.20.1	2024-05-24T11:25:02.7505266	Tags for minecraft:block mod id revenantmod
+ac78eb879b0735a44c4ebbe705526eee25f8dffe data/forge/tags/blocks/needs_netherite_tool.json
+f9076a8de753b2f66605cfccbbc8cda9316f4757 data/minecraft/tags/blocks/mineable/pickaxe.json
+60125c5f4ff3c90e7d61c9b1100127e93345babe data/minecraft/tags/blocks/mineable/shovel.json
