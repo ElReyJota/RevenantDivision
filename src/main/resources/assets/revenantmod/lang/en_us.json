@@ -5,6 +5,10 @@
   "item.revenantmod.iridian_pearl": "Iridian Pearl",
   "item.revenantmod.pyrium_raw": "Raw Pyrium",
   "item.revenantmod.wood_handle": "Wood Handle",
+  "item.revenantmod.stone_handle": "Stone Handle",
+  "item.revenantmod.gold_handle": "Gold Handle",
+  "item.revenantmod.iron_handle": "Iron Handle",
+  "item.revenantmod.diamond_handle": "Diamond Handle",
 
 
   "block.revenantmod.malachite_ore": "Malachite Ore",

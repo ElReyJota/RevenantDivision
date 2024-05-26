@@ -1,20 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  S",
+    "  G",
     " L ",
-    "S  "
+    "W  "
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
+    "G": {
+      "item": "minecraft:gold_ingot"
     },
     "L": {
       "item": "minecraft:leather"
+    },
+    "W": {
+      "tag": "minecraft:planks"
     }
   },
   "result": {
-    "item": "revenantmod:wood_handle",
+    "item": "revenantmod:gold_handle",
     "count": 1
   }
 }

@@ -26,8 +26,14 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WOOD_HANDLE = ITEMS.register("wood_handle",
             () -> new Item(new Item.Properties()));
-
-
+    public static final RegistryObject<Item> STONE_HANDLE = ITEMS.register("stone_handle",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLD_HANDLE = ITEMS.register("gold_handle",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_HANDLE = ITEMS.register("iron_handle",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_HANDLE = ITEMS.register("diamond_handle",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

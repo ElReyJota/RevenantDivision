@@ -3,18 +3,21 @@
   "pattern": [
     "  S",
     " L ",
-    "S  "
+    "W  "
   ],
   "key": {
     "S": {
-      "item": "minecraft:stick"
+      "tag": "minecraft:stone_tool_materials"
     },
     "L": {
       "item": "minecraft:leather"
+    },
+    "W": {
+      "tag": "minecraft:planks"
     }
   },
   "result": {
-    "item": "revenantmod:wood_handle",
+    "item": "revenantmod:stone_handle",
     "count": 1
   }
 }
