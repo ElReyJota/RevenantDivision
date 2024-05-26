@@ -1,20 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  S",
+    "  D",
     " L ",
-    "S  "
+    "W  "
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
+    "D": {
+      "item": "minecraft:diamond"
     },
     "L": {
       "item": "minecraft:leather"
+    },
+    "W": {
+      "tag": "minecraft:planks"
     }
   },
   "result": {
-    "item": "revenantmod:wood_handle",
+    "item": "revenantmod:diamond_handle",
     "count": 1
   }
 }
